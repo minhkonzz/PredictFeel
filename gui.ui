@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Chương trình</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(234, 234, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>571</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:25px;
+font-weight: bold;
+color: red;</string>
+    </property>
+    <property name="text">
+     <string>Dự đoán chỉ số hạnh phúc giựa vào mức lương</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:21px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Họ và tên</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>180</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:21px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Giới tính</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txthovaten">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>120</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#fff</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtgioitinh">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>180</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#fff</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txttuoi">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#fff</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>240</y>
+      <width>55</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:21px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Tuổi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>290</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:21px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Nghề nghiệp</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtnghenghiep">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>300</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#fff</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtmucluong">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>360</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#fff</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>350</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:21px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Mức lương</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btndudoan">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>450</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #3c8dbc;
+border-color: #367fa9;
+color: white;
+border-width: 2 px;
+border-radius: 10 px;
+padding:6px;
+font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:21px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Dự đoán</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnluuvaoexcel">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>450</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: 	#99CC00;
+border-color: #367fa9;
+color: white;
+border-width: 2 px;
+border-radius: 10 px;
+padding:6px;
+font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;</string>
+    </property>
+    <property name="text">
+     <string>Lưu vào excel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnnhaplai">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>450</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: 	#800000;
+border-color: #367fa9;
+color: white;
+border-width: 2 px;
+border-radius: 10 px;
+padding:6px;
+font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;</string>
+    </property>
+    <property name="text">
+     <string>Nhập lại</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
